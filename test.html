@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>test</title>
+</head>
+
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="container">
+            <h1>FTL: Прямая машина</h1>
+            <div class="numbers">1</div>
+            <h3>Маршрут</h3>
+            <div class="road">
+                <h5>Откуда</h5>
+                <input type="text" name="from">
+                <h5>Куда</h5>
+                <input type="text" name="to">
+            </div>
+            <div class="numbers">2</div>
+            <h3>Транспорт</h3>
+            <div class="half">
+                <div class="half__elem">
+                    <h5>Грузоподъемность</h5>
+                    <select name="weigth" id="">
+                        <option value="1">Вариант 1</option>
+                        <option value="2">Вариант 2</option>
+                        <option value="3">Вариант 3</option>
+                        <option value="4">Вариант 4</option>
+                        <option value="5">Вариант 5</option>
+                    </select>
+                </div>
+                <div class="half__elem">
+                    <h5>Способ погрузки</h5>
+                    <select name="typeof" id="">
+                        <option value="back">Задняя</option>
+                        <option value="front">Передняя</option>
+                    </select>
+                </div>
+            </div>
+            <div class="numbers">3</div>
+            <h3>Груз</h3>
+
+            <div class="full">
+                <h5>Тип груза</h5>
+                <select name="typeofthink" id="">
+                    <option value="1">Вариант 1</option>
+                    <option value="2">Вариант 2</option>
+                    <option value="3">Вариант 3</option>
+                    <option value="4">Вариант 4</option>
+                    <option value="5">Вариант 5</option>
+                </select>
+            </div>
+            <div class="half">
+                <div class="half__elem">
+                    <h5>Класс опасности</h5>
+                    <select name="dangerclass" id="">
+                        <option value="1">Вариант 1</option>
+                        <option value="2">Вариант 2</option>
+                        <option value="3">Вариант 3</option>
+                        <option value="4">Вариант 4</option>
+                        <option value="5">Вариант 5</option>
+                    </select>
+                </div>
+                <div class="half__elem">
+                    <h5>Обьявленная ценность, Р</h5>
+                    <input type="number" placeholder=">=1" class="half__inp">
+                </div>
+            </div>
+            <div class="half withoutbottom">
+                <p>
+                    <input type="checkbox">
+                    <h5>Требуется температурный режим</h5>
+                    
+                </p>
+            </div>
+            <div class="numbers">4</div>
+            <h3>Время</h3>
+            <h5>Когда прибыть в точку</h5>
+            <div><input type="radio" сhecked><button>не выбрано</button></div>
+            <div><input type="radio"><button>не выбрано</button></div>
+            <h5>Коментарий к заказу</h5>
+            <textarea name="comment" id="" cols="" rows="3"
+                placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"></textarea>
+
+
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>
